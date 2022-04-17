@@ -8,3 +8,10 @@
 
 
 https://medium.com/@maxime.atton/fork-uniswap-v2-smart-contracts-ui-on-remix-e885d6cea176
+
+
+
+factory 
+
+line 9 
+bytes32 public constant INIT_CODE_HASH = keccak256(abi.encodePacked(type(UniswapV2Pair).creationCode));
